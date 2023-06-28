@@ -1,5 +1,6 @@
 def convert_to_uppercase(string):
     return string.upper()
+
 def capitalize_words(string):
     """
     Функция принимает строку и возвращает новую строку, в которой первые буквы каждого слова заглавные.
@@ -9,7 +10,6 @@ def capitalize_words(string):
 
     Возвращает:
     - capitalized_string (str): Новая строка с заглавными первыми буквами каждого слова.
-
     """
 
     words = string.split()
